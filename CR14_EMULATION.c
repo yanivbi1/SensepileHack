@@ -2,35 +2,20 @@
 *
 * Atmel Corporation
 *
-* File              : main.c
-* Compiler          : IAR EWAAVR 2.28a/3.10c
-* Revision          : $Revision: 2516 $
-* Date              : $Date: 2007-09-27 10:41:15 +0200 (to, 27 sep 2007) $
-* Updated by        : $Author: mlarsson $
+* File              : CR14_EMULATION.c
+* Compiler          : 
+* Revision          : $Revision:
+* Date              : $Date: 
+* Updated by        : $Author: 
 *
-* Support mail      : avr@atmel.com
 *
 * Supported devices : All devices with a TWI module can be used.
 *                     The example is written for the ATmega16
 *
 * AppNote           : AVR311 - TWI Slave Implementation
 *
-* Description       : Example of how to use the driver for TWI slave 
-*                     communication.
-*
-****************************************************************************/
-/*! \page MISRA
- *
- * General disabling of MISRA rules:
- * * (MISRA C rule 1) compiler is configured to allow extensions
- * * (MISRA C rule 111) bit fields shall only be defined to be of type unsigned int or signed int
- * * (MISRA C rule 37) bitwise operations shall not be performed on signed integer types
- * As it does not work well with 8bit architecture and/or IAR
 
- * Other disabled MISRA rules
- * * (MISRA C rule 109) use of union - overlapping storage shall not be used
- * * (MISRA C rule 61) every non-empty case clause in a switch statement shall be terminated with a break statement
-*/
+****************************************************************************/
 
 #if defined(__ICCAVR__)
 #include "ioavr.h"              
